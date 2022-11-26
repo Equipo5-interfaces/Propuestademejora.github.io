@@ -1,0 +1,726 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+body header {
+    background-color: #1A80BC;
+    width: auto;
+    height: 138px;
+    font-family: "Open Sans";
+    justify-content: center;
+    display: flex;
+}
+body header img {
+    width: 274px;
+    margin-top: 35px;
+    height: 75px;
+}
+body nav {
+    background-color: #213974;
+    color: #FFFFFF;
+    width: auto;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+    text-decoration: none;
+}
+body nav li a {
+    margin-left: 35px;
+    width: 275px;
+    text-align: left;
+    font-size: 14pt;
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    display: block;
+    background-color: #213974;
+    padding-left: 35px;
+    padding-top: 5px;
+    text-decoration: none;
+}
+body nav li a:hover {
+    background-color: #40568B;
+}
+body nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+body nav li:hover > ul {
+    display: block;
+}
+body main {
+    width: auto;
+    height: auto;
+    font-family: "Open Sans";
+    padding-bottom: 35px;
+}
+body main section h3 {
+    color: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 36pt;
+    width: auto;
+}
+body footer {
+    background-color: #E3E3E3;
+    width: auto;
+    height: auto;
+    font-family: "Open Sans";
+}
+ul,ol {
+    list-style: none;
+}
+
+
+.menuprincipal > li {
+    float: left
+}
+.iconoheader {
+    color: #FFFFFF;
+    font-size: 25px;
+    height: 56px;
+    width: 272px;
+    margin-left: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+}
+.iconoheader img {
+    width: 25px;
+    height: auto;
+}
+.iconoheader a {
+    color: #FFFFFF;
+}
+.buscadortext {
+    font-size: 24pt;
+    color: #213974;
+}
+.tarjetacarrusel {
+    width: auto;
+    height: 464px;
+    color: #FFFFFF;
+}
+.itemcarrusel {
+    width: auto;
+}
+.ConteTarjetaCarrusel {
+    width: 100%;
+    height: 464px;
+    align-items: center;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.librosCarrusel {
+    width: 80%;
+    height: auto;
+    padding-top: 25px;
+}
+.librosCarrusel h4  {
+    font-size: 36pt;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.librosCarrusel h5  {
+    font-size: 20pt;
+    font-family: "Open Sans";
+    text-align: left;
+    font-weight: lighter;
+}
+.librosCarrusel p {
+    font-family: "Open Sans";
+    font-size: 14pt;
+    text-align: justify;
+}
+.botonadquirirlibro {
+    width: 271px;
+    height: 44px;
+    display: inline-block;
+    margin-left: 35%;
+    background-color: #FFFFFF;
+    color: #3d5f9f;
+    text-align: center;
+    border-radius: 28px;
+    -webkit-box-shadow: 2px 5px #213974;
+    box-shadow: 2px 5px #213974;
+    padding-top: 10px;
+    font-size: large;
+    margin-top: 5%;
+}
+.opcionesdebusq {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: normal;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.menufiltro {
+    background-color: #7ebfb2;
+    width: 273.132px;
+    height: 385px;
+    border-radius: 9px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.menulibro  {
+    margin-left: 460px;
+
+}
+.parrafoslib {
+    font-size: 11px;
+    height: 50px;
+    line-height: 16px;
+}
+.menufiltro #form2 #select {
+    background-color: #7EBFB2;
+    width: 250px;
+    text-align: left;
+    margin-top: 30px;
+    border-bottom-color: #FFFFFF;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-width: 0px 0px 3px;
+    font-size: large;
+}
+.menufiltro #form2 #Autor {
+    width: 250px;
+    margin-top: 25px;
+}
+.menufiltro #form2 #edit {
+    width: 250px;
+    margin-top: 25px;
+}
+.menufiltro #form2 #Tipo {
+    width: 250px;
+    margin-top: 25px;
+}
+.Categnoveinicio {
+    background-color: #66a0b0;
+    width: auto;
+    height: auto;
+    margin-bottom: 35px;
+    padding-right: 35px;
+    margin-right: 35px;
+}
+.Categpeques {
+    background-color: #66a0b0;
+    width: auto;
+    margin-bottom: 35px;
+    padding-right: 35px;
+    margin-right: 35px;
+    height: auto;
+    border-radius: 50px;
+}
+.libroscondescrip {
+    width: 728.024px;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.librossindescrip {
+    width: 270px;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.container_footer div {
+    width: 427px;
+    height: auto;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+}
+.container_footer2 div {
+    width: 274px;
+    height: 220px;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+.logofooter   {
+    width: 423px;
+    height: auto;
+}
+.simbolosfooter   {
+    width: 23px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.tamlibroscat {
+    width: 270.024px;
+    height: 390px;
+    float: left;
+    margin-right: 35px;
+}
+.tamlibrospeuqesadoles {
+    width: 270.024px;
+    height: 390px;
+    float: left;
+    margin-right: 35px;
+}
+.tamlibrospeques {
+    width: 270.024px;
+    height: 270px;
+    float: none;
+    margin-right: 35px;
+}
+.portadalibro {
+    margin-left: 11px;
+}
+.libroscondescrip h4 {
+    color: #FFFFFF;
+    font-size: 18pt;
+    font-family: "Open Sans";
+}
+.librossindescrip h4 {
+    color: #FFFFFF;
+    font-size: 18pt;
+    font-family: "Open Sans";
+    text-align: center;
+}
+.libroscondescrip h5 {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14pt;
+    margin-top: 10px;
+    font-weight: lighter;
+}
+.librossindescrip h5 {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 14pt;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+.libroscondescrip p {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    text-align: justify;
+    font-size: 12pt;
+    margin-top: 19px;
+    font-weight: lighter;
+}
+.libroscondescrip h6 {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 25pt;
+    margin-top: 38px;
+    font-weight: bolder;
+}
+.librossindescrip h6 {
+    color: #FFFFFF;
+    font-family: "Open Sans";
+    font-size: 25pt;
+    margin-top: 38px;
+    text-align: center;
+    font-weight: bolder;
+}
+.botonadquirirlibrotops {
+    width: 271px;
+    height: 44px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #3d5f9f;
+    text-align: center;
+    border-radius: 28px;
+    -webkit-box-shadow: 2px 5px #213974;
+    box-shadow: 2px 5px #213974;
+    padding-top: 10px;
+    font-size: large;
+    margin-left: 100px;
+    margin-top: 34px;
+}
+.botonadquirirlibropeques {
+    width: 271px;
+    height: 44px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #3d5f9f;
+    text-align: center;
+    border-radius: 28px;
+    -webkit-box-shadow: 2px 5px #213974;
+    box-shadow: 2px 5px #213974;
+    padding-top: 10px;
+    font-size: large;
+    margin-top: 34px;
+}
+.Contactoseccion {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.redessociales a {
+    color: #103070;
+    margin-right: 10px;
+    font-size: xx-large;
+}
+.redessociales section h4 {
+    font-size: x-large;
+    margin-top: 11px;
+    margin-bottom: -3px;
+}
+.menuonformacionfooter li {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: small;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+.menuonformacionfooter a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: small;
+}
+
+
+#search {
+    width: 731.451px;
+    height: 66.7594px;
+    margin-left: 190px;
+    border-radius: 56px;
+    margin-top: 34px;
+    padding-left: 35px;
+}
+#seccion1main {
+    display: flex;
+    height: 464px;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+#ContentItemsCarrusel{
+    height: 464px;
+    overflow: hidden
+}
+#PuntosCarrusel{
+    display: flex;
+    justify-content: center;
+}
+#PuntosCarrusel a {
+    color: #9F9CAF;
+    font-size: large;
+    margin-top: 10px;
+    padding-right: 35px;
+}
+#NovedadesCarrusel1 {
+    background-color: #7088BE;
+}
+#NovedadesCarrusel2 {
+    background-color: #5AB0B4;
+}
+#NovedadesCarrusel3 {
+    background-color: #61A8D2;
+}
+#NovedadesCarrusel4 {
+    background-color: #73BCBC;
+}
+#NovedadesCarrusel5 {
+    background-color: #A9A9D0;
+}
+#EstrellasLibros {
+    display: flex;
+    justify-content: space-between;
+    width: 288px;
+    font-size: 30px;
+    height: 30px;
+}
+#seccion2main {
+    display: flex;
+    margin-top: 35px;
+}
+#Seccioncatnov {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    justify-content: space-around;
+}
+#seccioncatcag {
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 35px;
+}
+#seccioncatpeques {
+    display: flex;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+#footerseccion2 div iframe {
+    width: 428px;
+    height: 371px;
+}
+#footerseccion2 div p {
+    font-size: 24px;
+}
+#footerseccion2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#footerseccion3 {
+    background-color: #EDEDED;
+    width: auto;
+    height: auto;
+    padding-bottom: 35px;
+    justify-content: flex-end;
+}
+#footerseccion3 h4 {
+    color: #1A80BC;
+    margin-left: 35px;
+    padding-top: 35px;
+}
+#footerseccion2 div {
+    margin-top: 35px;
+}
+#formemailfooter {
+    margin-left: 35px;
+    height: auto;
+    width: auto;
+    justify-content: flex-end;
+    display: flex;
+    text-align: left;
+    padding-right: 35px;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+#emailfooter {
+    width: auto;
+    margin-left: 35px;
+    padding-right: 50%;
+}
+#Botonfooter {
+    width: 102px;
+    margin-left: 2px;
+    text-align: center;
+    background-color: #1A80BC;
+    color: #FFFFFF;
+    border-radius: 14px;
+    border: thin groove #414A97;
+}
+#labelfooter {
+    width: auto;
+    text-align: right;
+}
+#footerseccion4 {
+    background-color: #363636;
+    width: auto;
+    height: 61px;
+    color: #FFFFFF;
+    font-size: large;
+    text-align: center;
+    padding-top: 14px;
+}
+#itemCarrusel1  {
+}
+#itemCarrusel5 {
+}
+#itemCarrusel4 {
+}
+#itemCarrusel3 {
+}
+#itemCarrusel2 {
+}
+#select {
+}
+#select {
+}
+#select {
+}
+#encabezadopeques {
+    margin-bottom: 35px;
+    margin-right: 35px;
+}
+#encabezadocateg {
+    margin-bottom: 35px;
+    margin-right: 35px;
+}
+.textgold {
+    color: #E5B417;
+    font-size: 24px;
+    font-family: "Open Sans";
+    margin-bottom: 35px;
+    border-bottom-color: #1A80BC;
+    border-bottom-style: solid;
+}
+.textgold2 {
+    color: #E5B417;
+    font-size: 24px;
+    font-family: "Open Sans";
+    border-bottom-color: #1A80BC;
+    border-bottom-style: solid;
+}
+.seccion1sucu {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: 450px;
+}
+.seccion2sucu {
+    margin-top: 35px;
+    margin-left: 35px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.subtitulo  {
+    margin-bottom: 15px;
+    border-bottom-color: #1A80BC;
+    border-bottom-style: solid;
+    color: #E4B924;
+    font-size: 10pt;
+}
+.subtitulocontact  {
+    margin-bottom: 15px;
+    border-bottom-color: #1A80BC;
+    border-bottom-style: solid;
+    color: #E4B924;
+    font-size: 10pt;
+    margin-top: 35px;
+}
+#Line {
+    width: auto;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ADD6E6;
+    border-color: #ADD6E6;
+    border-style: solid;
+    padding-left: 16px;
+    margin-bottom: 15px;
+    padding-right: 50%;
+}
+.seccioninfosucur {
+    width: auto;
+    display: flex;
+    flex-wrap: no-wrap;
+}
+.seccioninfosucur div p {
+}
+.direcyhor {
+    margin-right: 35px;
+    width: auto;
+    height: auto;
+}
+.seccioninfosucur div #imagensucur {
+    margin-left: 35px;
+}
+#botonlocalizar   {
+    background-color: #C1C5E3;
+    width: auto;
+    margin-top: 35px;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 26px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+#botonlocalizar a {
+    color: #3840A4;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+#textbold {
+    font-size: 18pt;
+    color: #37A0DD;
+    margin-bottom: 15px;
+    border-bottom-color: #1A80BC;
+    border-bottom-style: solid;
+}
+.margenlibreriasestado {
+    margin-left: 35px;
+    width: auto;
+}
+.imagensucur {
+    margin-left: 35px;
+    width: auto;
+    height: auto;
+}
+.imagencorreo {
+    width: 350px;
+    height: auto;
+    margin-bottom: 12px;
+    background-color: #DAE4EB;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 29px;
+}
+#iconossucur {
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.Contactsec1 {
+    display: flex;
+    width: auto;
+    height: auto;
+    align-content: center;
+    justify-content: center;
+}
+.Contactsec1 .seccion1sucu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+.cajascontac {
+    width: auto;
+    height: auto;
+    background-color: #CBD6EE;
+    border-radius: 25px;
+}
+.seccion2conta {
+    margin-left: 35px;
+    margin-top: 35px;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+}
+.correoconta {
+    background-color: #DAE4EB;
+    padding-left: 19px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 41px;
+    text-align: center;
+    text-decoration: none;
+    color: #315C8E;
+    font-weight: bold;
+}

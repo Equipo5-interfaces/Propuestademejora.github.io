@@ -1,0 +1,351 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body header {
+    background-color: #1A80BC;
+    height: 138px;
+    font-family: "Open Sans";
+    justify-content: center;
+    display: flex;
+}
+body header img {
+    width: 274px;
+    height: 86px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+body nav {
+    background-color: #213974;
+    color: #FFFFFF;
+    width: auto;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+}
+body nav div {
+    margin-left: 35px;
+    width: 275px;
+    text-align: center;
+    font-size: 20pt;
+    font-family: "Open Sans";
+}
+body main {
+    width: auto;
+    height: auto;
+    font-family: "Open Sans";
+    padding-top: 20px;
+    padding-right: 35px;
+}
+body header {
+    background-color: #1A80BC;
+    width: auto;
+    height: 138px;
+    font-family: "Open Sans";
+    justify-content: center;
+    display: flex;
+}
+body header img {
+    width: 274px;
+    margin-top: 35px;
+    height: 75px;
+}
+body nav {
+    background-color: #213974;
+    color: #FFFFFF;
+    width: auto;
+    height: 43px;
+    display: flex;
+    justify-content: center;
+    font-family: "Open Sans";
+}
+body nav div {
+    margin-left: 35px;
+    width: 275px;
+    text-align: center;
+    font-size: 14pt;
+    font-family: "Open Sans";
+    padding-top: 8px;
+}
+body main section h3 {
+    color: #FFFFFF;
+    margin-left: 35px;
+}
+body main section {
+    width: auto;
+    padding-right: px;
+    padding-left: px;
+    padding-bottom: 20;
+    margin-top: 30px;
+    margin-left: 35px;
+    margin-bottom: 30px;
+    background-color: #4A5FA5;
+}
+body footer {
+    background-color: #E3E3E3;
+    width: auto;
+    height: auto;
+    font-family: "Open Sans";
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+}
+
+body footer {
+    background-color: #E3E3E3;
+    width: auto;
+    height: auto;
+    font-family: "Open Sans";
+}
+body nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.iconoheader {
+    color: #FFFFFF;
+    font-size: 25px;
+    padding-right: 35px;
+    height: 56px;
+    width: 272px;
+    margin-left: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+}
+.iconoheader a {
+    color: #FFFFFF;
+}
+.buscadortext {
+    font-size: 24pt;
+    color: #213974;
+}
+.menufiltro {
+    background-color: #7ebfb2;
+    width: 273.132px;
+    height: 385px;
+    border-radius: 9px;
+}
+.menulibro  {
+    margin-left: 460px;
+
+}
+.portadalibro {
+    border-left: 2.5px solid #FFFFFF;
+    border-right: 2.5px solid #FFFFFF;
+    border-bottom: 6px solid #FFFFFF;
+    border-top: 2.5px solid #FFFFFF;
+    margin-left: 2px;
+    margin-top: 4px;
+    width: 180px;
+}
+.parrafoslib {
+    width: 180px;
+    font-family: "Open Sans";
+    font-style: normal;
+    text-align: center;
+    font-size: 11pt;
+    color: #FFFFFF;
+    margin-left: 6px;
+}
+.Categnoveinicio {
+    background-color: #66a0b0;
+    width: auto;
+    height: 1036px;
+    margin-bottom: 35px;
+}
+.1librocategoria {
+    justify-content: center;
+    height: auto;
+}
+.libroscondescrip {
+    width: 728.024px;
+    height: auto;
+    margin-left: 35px;
+    margin-top: 35px;
+}
+.container_footer2 div {
+    width: 274px;
+    height: auto;
+    margin-left: 93px;
+    margin-right: 93px;
+}
+.logofooter   {
+    width: 423px;
+    height: auto;
+}
+.simbolosfooter   {
+    width: 23px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: x-small;
+}
+.container_footer div {
+    width: 427px;
+    height: auto;
+    margin-left: 17.5px;
+    margin-right: 17.5px;
+}
+.menulibro {
+}
+.portadalibro {
+}
+.parrafoslib {
+    font-size: 11px;
+    height: 50px;
+    line-height: 16px;
+}
+.opcionesdebusq {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: normal;
+    font-family: "Open Sans";
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 28px;
+}
+.menufiltro #form2 #select {
+    background-color: #7EBFB2;
+    width: 250px;
+    text-align: left;
+    margin-top: 30px;
+    border-bottom-color: #FFFFFF;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    border-width: 0px 0px 3px;
+    font-size: large;
+}
+.menufiltro #form2 #Autor {
+    width: 250px;
+    margin-top: 25px;
+}
+.menufiltro #form2 #edit {
+    width: 250px;
+    margin-top: 25px;
+}
+.menufiltro #form2 #Tipo {
+    width: 250px;
+    margin-top: 25px;
+}
+
+
+#search {
+    width: 731.451px;
+    height: 66.7594px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border-radius: 56px;
+    margin-top: 34px;
+    padding-left: 35px;
+}
+#seccion1main {
+    display: flex;
+    height: auto;
+    width: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+#seccion2main {
+    display: flex;
+    margin-top: 35px;
+}
+#Seccioncatnov {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 1493px;
+    height: auto;
+}
+#seccioncatcag {
+    display: flex;
+    width: 1527.02px;
+    height: 868.288px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#footerseccion2 div iframe {
+    width: 428px;
+    height: 650px;
+}
+#footerseccion2 div p {
+    font-size: 24px;
+}
+#footerseccion2 {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#footerseccion3 {
+    background-color: #EDEDED;
+    width: auto;
+    height: auto;
+}
+#footerseccion3 h4 {
+    color: #1A80BC;
+    margin-left: 35px;
+    padding-top: 35px;
+    font-size: x-large;
+}
+#footerseccion2 div {
+    margin-top: 35px;
+    height: auto;
+}
+#formemailfooter {
+    margin-left: 35px;
+    height: auto;
+    width: auto;
+    justify-content: flex-end;
+    display: flex;
+    text-align: left;
+}
+#emailfooter {
+    width: 1000px;
+    margin-left: 191px;
+}
+#Botonfooter {
+    width: 102px;
+    margin-left: 2px;
+    text-align: center;
+    background-color: #1A80BC;
+    color: #FFFFFF;
+    border-radius: 14px;
+    border: thin groove #414A97;
+}
+#labelfooter {
+    width: 577px;
+}
+#footerseccion4 {
+    background-color: #363636;
+    width: auto;
+    height: auto;
+    color: #FFFFFF;
+    font-size: large;
+    text-align: center;
+    padding-top: 1px;
+}
+#select {
+}
+#select {
+}
+#select {
+}
+.encabezadocatg {
+    width: 50%;
+    height: auto;
+}
