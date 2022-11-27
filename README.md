@@ -1,2 +1,2 @@
-# Propuestademejora.github.io
+# propuestademejora.github.io
 Propuesta de mejora el sótano
